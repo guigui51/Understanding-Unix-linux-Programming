@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo "The time in Boston is"
+TZ=EST5EDT
+export TZ
+date
+
+echo "The time in Chicago is"
+TZ=CST6CDT
+date
+echo "The time in LA is"
+TZ=PST8PDT
+date

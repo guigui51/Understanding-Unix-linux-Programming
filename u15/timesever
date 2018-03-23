@@ -1,0 +1,6 @@
+#!/bin/sh
+while true; do
+    date>./current_date
+    sleep 1
+    done
+
